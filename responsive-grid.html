@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+  <head>
+  	<style>
+  		.lighten-box {
+  			opacity: 0.75;
+  		}
+
+  		.main {
+  			margin-top: 25px;
+  		}
+  	</style>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
+    <script type="text/javascript">
+    	$(document).ready(function() {
+
+    		// set the cursor to pointer to select for each element
+    		$('.row').children().mouseenter(function(event) {
+    			$(this).toggleClass('lighten-box');
+    		});
+
+    		$('.row').children().mouseleave(function(event) {
+    			$(this).toggleClass('lighten-box');
+    		});
+
+
+
+    	});
+    </script>
+
+  </head>
+
+  <body>
+
+  	<!-- this container holds all the rows to make them responsive -->
+  	 <div class="container main" style="color: white">
+
+  	 	<!-- row one -->
+  	 	<div class="row text-middle">
+  	 		<div class="col-sm-12" style="background-color:#27ae60; height:120px">1</div>
+  	 	</div>
+
+		<!-- row two -->
+		<div class="row">
+			<div class="col-sm-6" style="background-color:#2980b9; height:120px">2</div>
+			<div class="col-sm-6" style="background-color:#9b59b6; height:120px">3</div>
+		</div>
+
+		<!-- row three -->
+		<div class="row">
+			<div class="col-xs-4" style="background-color:#1abc9c; height:120px">4</div>
+			<div class="col-xs-4" style="background-color:#e74c3c; height:120px">5</div>
+			<div class="col-xs-4" style="background-color:#f1c40f; height:120px">6</div>
+		</div>
+
+		<!-- row four -->
+		<div class="row">
+			<div class="col-sm-3" style="background-color:#C5215D; height:120px">7</div>
+			<div class="col-sm-3" style="background-color:#1B58A9; height:120px">8</div>
+			<div class="col-sm-3" style="background-color:#27ae60; height:120px">9</div>
+			<div class="col-sm-3" style="background-color:#2980b9; height:120px">10</div>
+		</div>
+
+		<!-- row five -->
+		<div class="row">
+			<div class="col-xs-2" style="background-color:#c0392b; height:120px">11</div>
+			<div class="col-xs-2" style="background-color:#1abc9c; height:120px">12</div>
+			<div class="col-xs-2" style="background-color:#8e44ad; height:120px">12</div>
+			<div class="col-xs-2" style="background-color:#7f8c8d; height:120px">14</div>
+			<div class="col-xs-2" style="background-color:#f1c40f; height:120px">15</div>
+			<div class="col-xs-2" style="background-color:#2ecc71; height:120px">16</div>
+		</dixs
+
+  	</div>
+
+  </body>
+</html>
